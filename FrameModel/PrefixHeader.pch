@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  FrameModel
+//
+//  Created by specter on 16/10/12.
+//  Copyright © 2016年 specter. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
+
+#import "UIColor+hexColor.h"
+#import "Common.h"      // 通用
+#import "NoticeDef.h" // 通知
+#import "UIImage+JL.h"
+#import "ServiceAddressDef.h"
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */

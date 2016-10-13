@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,35 @@
 
 @implementation AppDelegate
 
++ (instancetype)shareDelegate
+{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    AppDelegate *myDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    if(SCREEN_HEIGHT > 480)
+    {
+        myDelegate.autoSizeScaleX = SCREEN_WIDTH/320;
+        myDelegate.autoSizeScaleY = SCREEN_HEIGHT/568;
+    }
+    else
+    {
+        myDelegate.autoSizeScaleX = 1.0;
+        myDelegate.autoSizeScaleY = 1.0;
+    }
+    
+    self.window = [[UIWindow alloc]init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    LoginViewController *root = [[LoginViewController alloc] init];
+    self.window.rootViewController = root;
+    
+    [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
