@@ -1,9 +1,9 @@
 //
 //  Public.m
-//  xingzhengbao
+//  FrameModel
 //
-//  Created by specter on 16/3/29.
-//  Copyright © 2016年 XZB. All rights reserved.
+//  Created by specter on 16/10/12.
+//  Copyright © 2016年 specter. All rights reserved.
 //
 
 #import "Public.h"

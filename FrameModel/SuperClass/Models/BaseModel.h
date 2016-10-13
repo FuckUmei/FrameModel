@@ -1,9 +1,9 @@
 //
 //  BaseModel.h
-//  OneShopKeeper
+//  FrameModel
 //
-//  Created by DavyZhang on 16/7/5.
-//  Copyright © 2016年 yihaozhanggui. All rights reserved.
+//  Created by specter on 16/10/12.
+//  Copyright © 2016年 specter. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

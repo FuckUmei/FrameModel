@@ -1,9 +1,9 @@
 //
-//  BaseView.h
-//  OneShopKeeper
+//  BaseModel.h
+//  FrameModel
 //
-//  Created by DavyZhang on 16/6/14.
-//  Copyright © 2016年 yihaozhanggui. All rights reserved.
+//  Created by specter on 16/10/12.
+//  Copyright © 2016年 specter. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

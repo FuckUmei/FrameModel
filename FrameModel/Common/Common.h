@@ -1,9 +1,9 @@
 //
-//  Common.h
-//  YiHaoZhuShou
+//  Common
+//  FrameModel
 //
-//  Created by 张金龙 on 16/3/25.
-//  Copyright © 2016年 YHZS. All rights reserved.
+//  Created by specter on 16/10/12.
+//  Copyright © 2016年 specter. All rights reserved.
 //
 #import "Public.h"
 

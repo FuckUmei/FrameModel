@@ -37,6 +37,8 @@
 		9FCB8BDA1DADE27900B6E744 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB8BD91DADE27900B6E744 /* Public.m */; };
 		9FCB8BE51DAE32A900B6E744 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB8BE21DAE32A900B6E744 /* LoginViewController.m */; };
 		9FCB8BE71DAE427A00B6E744 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB8BE61DAE427A00B6E744 /* Images.xcassets */; };
+		9FCB8BEC1DAF332500B6E744 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB8BEB1DAF332500B6E744 /* RootViewController.m */; };
+		9FCB8BF41DAF33CD00B6E744 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB8BF31DAF33CD00B6E744 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,10 @@
 		9FCB8BE11DAE32A900B6E744 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9FCB8BE21DAE32A900B6E744 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9FCB8BE61DAE427A00B6E744 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		9FCB8BEA1DAF332500B6E744 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9FCB8BEB1DAF332500B6E744 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9FCB8BF21DAF33CD00B6E744 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9FCB8BF31DAF33CD00B6E744 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CE910D2DE7F6136C59F09D56 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,6 +198,7 @@
 		9FCB8B4A1DADDA3E00B6E744 /* FrameModel */ = {
 			isa = PBXGroup;
 			children = (
+				9FCB8BED1DAF333400B6E744 /* Home */,
 				9FCB8BDE1DAE32A900B6E744 /* Login */,
 				9FCB8BA81DADDF6F00B6E744 /* Others */,
 				9FCB8B7E1DADDCE900B6E744 /* Common */,
@@ -270,6 +277,8 @@
 		9FCB8B8F1DADDCE900B6E744 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9FCB8BEA1DAF332500B6E744 /* RootViewController.h */,
+				9FCB8BEB1DAF332500B6E744 /* RootViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -431,6 +440,47 @@
 			sourceTree = "<group>";
 		};
 		9FCB8BE41DAE32A900B6E744 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FCB8BED1DAF333400B6E744 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9FCB8BEE1DAF333400B6E744 /* Cell */,
+				9FCB8BEF1DAF333400B6E744 /* Controller */,
+				9FCB8BF01DAF333400B6E744 /* Model */,
+				9FCB8BF11DAF333400B6E744 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9FCB8BEE1DAF333400B6E744 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9FCB8BEF1DAF333400B6E744 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FCB8BF21DAF33CD00B6E744 /* HomeViewController.h */,
+				9FCB8BF31DAF33CD00B6E744 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FCB8BF01DAF333400B6E744 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FCB8BF11DAF333400B6E744 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -632,6 +682,7 @@
 				9FCB8BD51DADDF6F00B6E744 /* PickerView.m in Sources */,
 				9FCB8BCF1DADDF6F00B6E744 /* UIColor+hexColor.m in Sources */,
 				9FCB8BD41DADDF6F00B6E744 /* UIView+Ext.m in Sources */,
+				9FCB8BEC1DAF332500B6E744 /* RootViewController.m in Sources */,
 				9FCB8BD11DADDF6F00B6E744 /* UIImage+JL.m in Sources */,
 				9FCB8BCC1DADDF6F00B6E744 /* NSString+Additions.m in Sources */,
 				9FCB8B501DADDA3E00B6E744 /* AppDelegate.m in Sources */,
@@ -642,6 +693,7 @@
 				9FCB8BA71DADDCE900B6E744 /* BaseView.m in Sources */,
 				9FCB8BA31DADDCE900B6E744 /* BaseViewCell.m in Sources */,
 				9FCB8BDA1DADE27900B6E744 /* Public.m in Sources */,
+				9FCB8BF41DAF33CD00B6E744 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
