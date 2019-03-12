@@ -1,2 +1,3 @@
 # FrameModel
-Create a simple framework
+简单的MVC框架
+
